@@ -1,3 +1,5 @@
+-- Calculate total SOFA Score
+CREATE OR REPLACE TABLE `YOURDATABASE.Total_SOFA_Score` AS
 SELECT hadm_id, stay_id, sofa_start, sofa_end, 
         MAX(sofa_resp) AS sofa_resp, 
         MAX(sofa_coag) AS sofa_coag, 
