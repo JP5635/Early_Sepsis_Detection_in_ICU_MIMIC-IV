@@ -8,6 +8,7 @@ The focus is on deriving hourly SOFA (Sequential Organ Failure Assessment) score
 ---
 
 ### Objectives
+- The queries are Google BigQuery-specific
 - Extract a sepsis cohort from MIMIC-IV based on ICD-9/10 diagnosis codes and SOFA scores
 - String matches with sepsis-related ICD-9/10 codes
     - The relvant ICD 10 codes can be found [here](https://icd.who.int/browse10/2019/en)
