@@ -1,0 +1,12 @@
+# How to create SOFA Score hourly?
+Before run the following code, change the destination of saving table to your database.
+
+### Create a table for ventilation
+- Run `sql/venrilation.sql` to create `ventilation_duration` database.
+
+### Create SOFA Score hourly by each patient stay
+- Run `sql/SOFA Score Hourly.sql`
+
+### Calculate total SOFA Score
+- Run `sql/Calculate Total SOFA Score.sql`
+- WARNING: Missing values will be substituted with 0.
